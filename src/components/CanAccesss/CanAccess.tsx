@@ -1,4 +1,5 @@
 import { ReactNode } from 'react'
+import { useSession } from '~/hooks'
 import { validateUserPermissions } from '~/utils'
 
 type Props = {

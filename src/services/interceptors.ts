@@ -6,6 +6,7 @@ import {
   AxiosResponse,
   InternalAxiosRequestConfig
 } from 'axios'
+import { paths } from '~/routers'
 import { createSessionCookies, getRefreshToken, getToken, removeSessionCookies } from '~/utils'
 import { api } from './api'
 
@@ -24,7 +25,6 @@ type SetAuthorizationHeaderParams = {
 
 export function setAuthorizationHeader(params: SetAuthorizationHeaderParams) {
   const { request, token } = params
-
   ;(request.headers as Record<string, unknown>)['Authorization'] = `Bearer ${token}`
 }
 

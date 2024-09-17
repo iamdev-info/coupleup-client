@@ -10,7 +10,7 @@ type Props = {
 }
 
 function PrivateRouteContainer(props: Props) {
-  // const { permissions, roles, redirectTo = '/' } = props
+  // const { permissions, roles, redirectTo = '/login' } = props
 
   // const { isAuthenticated, user, loadingUserData } = useSession()
   // const { hasAllPermissions } = validateUserPermissions({
