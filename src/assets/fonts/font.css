@@ -1,4 +1,3 @@
-
 /*---S:Roboto Font---*/
 @font-face {
   font-family: 'Roboto', sans-serif;
@@ -39,3 +38,55 @@
 }
 
 /*---E:Roboto Font---*/
+
+/*---S:PlayerSan Font---*/
+@font-face {
+  font-family: 'Playpen Sans', cursive;
+  font-style: normal;
+  font-weight: 100;
+  src: url('/public/fonts/playersan/PlaypenSans-Thin.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Playpen Sans', cursive;
+  font-style: normal;
+  font-weight: 300;
+  src: url('/public/fonts/playersan/PlaypenSans-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Playpen Sans', cursive;
+  font-style: normal;
+  font-weight: 200;
+  src: url('/public/fonts/playersan/PlaypenSans-ExtraLight.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Playpen Sans', cursive;
+  font-style: normal;
+  font-weight: 400;
+  src: url('/public/fonts/playersan/PlaypenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Playpen Sans', cursive;
+  font-style: normal;
+  font-weight: 500;
+  src: url('/public/fonts/playersan/PlaypenSans-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Playpen Sans', cursive;
+  font-style: normal;
+  font-weight: 600;
+  src: url('/public/fonts/playersan/PlaypenSans-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Playpen Sans', cursive;
+  font-style: normal;
+  font-weight: 700;
+  src: url('/public/fonts/playersan/PlaypenSans-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Playpen Sans', cursive;
+  font-style: normal;
+  font-weight: 800;
+  src: url('/public/fonts/playersan/PlaypenSans-ExtraBold.ttf') format('truetype');
+}
+/*---E:PlayerSan Font---*/
