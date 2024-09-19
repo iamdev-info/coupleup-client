@@ -1,3 +1,5 @@
 export * from './CanAccesss'
 export * from './ErrorState'
 export * from './Loader'
+export * from './BottomBar'
+export * from './Navbar'
